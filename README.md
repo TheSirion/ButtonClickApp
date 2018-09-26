@@ -1,0 +1,4 @@
+# ButtonClickApp
+Um aplicativo simples que registra na tela o que é digitado.
+O Button Click App foi criado apenas com o simples objetivo de entender as características mais básicas de se trabalhar com Android e Android Studio. Infelizmente ele não tem nenhuma utilidade prática. 
+Os métodos sobrescritos são desnecessários para o funcionamento do código e foram adicionados ali apenas para objetivo de estudo do ciclo de vida de um aplicativo Android, por isso foram comentados "para fora" do código. Esses métodos são importantes e continuam funcionando perfeitamente na classe android.app.Activity, mas suas versões sobrescritas (sem contar onCreate, onRestoreInstanceState e onSaveInstanceState, que realmente estão sendo usados) não fazem nada de diferente além de registrarem no Logcat do Android Studio em que momento do ciclo de vida o aplicativo está. 
